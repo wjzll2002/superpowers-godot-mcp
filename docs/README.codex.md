@@ -7,7 +7,7 @@ Guide for using Superpowers with OpenAI Codex via native skill discovery.
 Tell Codex:
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/wjzll2002/superpowers-godot-mcp/refs/heads/main/.codex/INSTALL.md
 ```
 
 ## Manual Installation
@@ -21,7 +21,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/obra/superpowers.git ~/.codex/superpowers
+   git clone https://github.com/wjzll2002/superpowers-godot-mcp.git ~/.codex/superpowers
    ```
 
 2. Create the skills symlink:
@@ -60,6 +60,7 @@ The `using-superpowers` skill is discovered automatically and enforces skill usa
 ## Usage
 
 Skills are discovered automatically. Codex activates them when:
+- You mention a skill by name (e.g., `use godot-mcp-game-development`)
 - You mention a skill by name (e.g., "use brainstorming")
 - The task matches a skill's description
 - The `using-superpowers` skill directs Codex to use one

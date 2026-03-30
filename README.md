@@ -67,7 +67,7 @@ or search for "superpowers" in the plugin marketplace.
 Tell Codex:
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/wjzll2002/superpowers-godot-mcp/refs/heads/main/.codex/INSTALL.md
 ```
 
 **Detailed docs:** [docs/README.codex.md](docs/README.codex.md)
@@ -127,6 +127,9 @@ Start a new session in your chosen platform and ask for something that should tr
 - **systematic-debugging** - 4-phase root cause process (includes root-cause-tracing, defense-in-depth, condition-based-waiting techniques)
 - **verification-before-completion** - Ensure it's actually fixed
 
+**Game Development (Godot)**
+- **godot-mcp-game-development** - Godot workflow adapter for MCP-verified gameplay development (core loop clarity, scene/script decomposition, runtime evidence-based completion)
+
 **Collaboration** 
 - **brainstorming** - Socratic design refinement
 - **writing-plans** - Detailed implementation plans
@@ -152,6 +155,14 @@ Start a new session in your chosen platform and ask for something that should tr
 Read more: [Superpowers for Claude Code](https://blog.fsck.com/2025/10/09/superpowers/)
 
 ## Contributing
+
+## Godot MCP Quick Start
+
+Use this in Codex after installation:
+
+```text
+Use superpowers:godot-mcp-game-development. Build a 2D Godot MVP with player movement, one interaction, a minimal HUD, and save/load. Plan first, then execute task-by-task with verification evidence.
+```
 
 Skills live directly in this repository. To contribute:
 
